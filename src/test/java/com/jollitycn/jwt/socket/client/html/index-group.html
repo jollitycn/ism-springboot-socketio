@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <meta charset="utf-8"/>
+
+    <title>Demo Group Chat</title>
+
+    <link href="bootstrap.css" rel="stylesheet">
+
+    <style>
+        body {
+            padding: 20px;
+        }
+
+        #console {
+            height: 400px;
+            overflow: auto;
+        }
+
+        .username-msg {
+            color: orange;
+        }
+
+        .connect-msg {
+            color: green;
+        }
+
+        .disconnect-msg {
+            color: red;
+        }
+
+        .send-msg {
+            color: #888
+        }
+
+        .chatting-input {
+            position: relative;
+            display: flex;
+            height: 40px;
+            width: 100%;
+        .emoji-display {
+            position: absolute;
+            width: 100%;
+            height: 210px;
+            background-color: white;
+            top: -210px;
+            left: 0;
+            overflow-y: auto;
+        ul {
+            display: flex;
+            flex-wrap: wrap;
+
+        li {
+            padding: 2px 3px;
+            font-size: 2.2rem;
+        }
+        }}
+
+        .emoji {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 45px;
+            height: 100%;
+            background-color: rgba(0, 0, 0, .1);
+
+        .icon-emoji {
+            width: 40px;
+            height: 100%;
+            background: url('common/icons/icon-emoji.svg') no-repeat;
+            background-size: contain;
+        }
+
+        }
+
+        textarea {
+            flex: 1;
+            resize: none;
+            padding-left: 3px;
+            padding-top: 7px;
+            padding-right: 3px;
+            height: 100%;
+            font-size: 1.4rem;
+        }
+        button {
+            width: 60px;
+            height: 100%;
+            background-color: blue;
+            color: white;
+            font-size: 16px;
+        }
+        }
+    </style>
+
+
+    <script src="js/socket.io/socket.io.js"></script>
+    <script src="js/moment.min.js"></script>
+    <script src="js/jquery-1.10.1.min.js"></script>
+
+    <script>
+var   emojis= ['😂', '🙏', '😄', '😏', '😇', '😅', '😌', '😘', '😍', '🤓', '😜', '😎', '😊', '😳', '🙄', '😱', '😒', '😔', '😷', '👿', '🤗', '😩', '😤', '😣', '😰', '😴', '😬', '😭', '👻', '👍', '✌️', '👉', '👀', '🐶', '🐷', '😹', '⚡️', '🔥', '🌈', '🍏', '⚽️', '❤️', '🇨🇳'];
+var isShowEmoji=false;
+        var userName = 'user' + Math.floor((Math.random() * 1000) + 1);
+
+        var socket = io.connect('http://jollitycn.com:9099?username=' + userName + '&password=123456');
+
+        socket.on('connect', function () {
+            output('<span class="connect-msg">Client has connected to the server!</span>');
+            socket.emit('user_join', userName);
+        });
+
+        socket.on('group_msg_send', function (data) {
+            if(data){
+            output('<span class="username-msg">' + data.from + ':</span> ' + data.content);
+            }
+        });
+
+        socket.on('disconnect', function () {
+            output('<span class="disconnect-msg">The client has disconnected!</span>');
+        });
+        socket.on('typing', function (data) {
+            if(data) {
+                output('<span class="disconnect-msg">' + data + ':is typing!' + '</span>');
+            }
+        });
+        socket.on('typing_stop', function (data) {
+            if(data) {
+               // output('<span class="disconnect-msg">' + data + ':stop typing!' + '</span>');
+            }
+        });
+        socket.on('message', function (data) {
+            if(data){
+                output('<span class="username-msg">' + data.from + ':</span> ' + data.content);
+            }
+        });
+
+        socket.on('user_join', (data) => {
+            if (!data) {
+                return;
+            }
+            output('<span class="username-msg">' + data.userName + '上线了' + ':共:'+data.count+':</span> ');
+        });
+        socket.on('user_left', (data) => {
+            if (!data) {
+                return;
+            }
+            output('<span class="username-msg">' + data.userName + '下线了' + ':共:'+data.count+':</span> ');
+        });
+        function sendDisconnect() {
+            socket.disconnect();
+        }
+
+        function sendConnect() {
+            socket.connect();
+        }
+
+
+        function sendMessage() {
+            var message = $('#msg').val();
+            $('#msg').val('');
+
+            var jsonObject = {
+                from: userName,
+                content: message
+            };
+            socket.emit('message', jsonObject, function (data) {
+                if(data) {
+                    output('<span class="username-msg">' + data.from+":"+data.content + '</span> ');
+                }
+            });
+        }
+
+        function output(message) {
+            var currentTime = "<span class='time'>" + moment().format('HH:mm:ss.SSS') + "</span>";
+            var element = $("<div>" + currentTime + " " + message + "</div>");
+            $('#console').prepend(element);
+        }
+
+        $(document).keydown(function (e) {
+            if (e.keyCode == 13) {
+                $('#send').click();
+            }
+        });
+
+        // $('#msg').onchange(function (e) {
+        //     if (e.keyCode != 13) {
+        //         socket.emit('typing', userName);
+        //     }
+        // });
+
+function showEmoji(flag) {
+    this.isShowEmoji = flag;
+    if (isShowEmoji) {
+        var begin = "<ui >";
+        var end = "</ui>";
+        var elements = "";
+        for (i = 0; i < emojis.length; i++) {
+            var element = $("<li onclick='insertText(" + emojis[i] + ")'>" + emojis[i] + "</li>");
+            elements += element;
+        }
+        $('#console').prepend(begin + elements + end);
+        $('#console').hidden = false;
+    } else {
+        $('#console').innerHTML("");
+        $('#console').hidden = true;
+    }
+}
+
+function insertText(str){
+    str = str + ` `;
+    const oTextarea = this.$refs.textarea;
+
+    if (document.selection) {
+
+        let sel = document.selection.createRange();
+
+        sel.text = str;
+
+    } else if (typeof oTextarea.selectionStart === 'number' && typeof oTextarea.selectionEnd ==='number') {
+
+        let startPos = oTextarea.selectionStart;
+        let endPos = oTextarea.selectionEnd;
+        let cursorPos = startPos;
+        let tempVal = oTextarea.value;
+        this.inputContent = tempVal.substring(0, startPos) + str + tempVal.substring(startPos, tempVal.length)
+        cursorPos += str.length;
+        oTextarea.selectionStart = oTextarea.selectionEnd = cursorPos;
+
+    } else {
+        oTextarea.value += str;
+    }
+    this.newLine();
+}
+
+function newLine(){
+    setTimeout(() => this.oTextarea.scrollTop = this.oTextarea.scrollHeight, 0);
+}
+    </script>
+</head>
+
+<body>
+
+<h1>jollitycn-socketio Demo Group Chat</h1>
+
+<br/>
+
+<div id="console" class="well">
+</div> <!-- 输入区域 -->
+<div class="chatting-input">
+<div id="divShowEmoji" class="emoji-display">
+</div>
+<div class="emoji">
+    <i onClick="showEmoji(isShowEmoji=!isShowEmoji);" class="icon-emoji"></i>
+</div>
+</div>
+<form class="well form-inline" onsubmit="return false;">
+
+    <input id="msg" class="input-xlarge" type="text" placeholder="Type something..."/>
+    <button type="button" onClick="sendMessage()" class="btn" id="send">Send</button>
+    <button type="button" onClick="sendConnect()" class="btn">Connect</button>
+    <button type="button" onClick="sendDisconnect()" class="btn">Disconnect</button>
+</form>
+
+
+</body>
+
+</html>
