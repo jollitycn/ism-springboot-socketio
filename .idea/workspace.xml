@@ -1,0 +1,738 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="b89c694d-ba1e-4268-9769-60bcaf20cc0d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ism-auth/ism-auth-common/target/classes/com/insigma/security/auth/common/constants/CommonConstants.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ism-auth/ism-auth-common/target/classes/com/insigma/security/auth/common/util/StringHelper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ism-auth/ism-auth-common/target/classes/com/insigma/security/auth/common/util/jwt/IJWTInfo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ism-auth/ism-auth-common/target/classes/com/insigma/security/auth/common/util/jwt/JWTHelper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ism-auth/ism-auth-common/target/classes/com/insigma/security/auth/common/util/jwt/JWTInfo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ism-auth/ism-auth-common/target/classes/com/insigma/security/auth/common/util/jwt/RsaKeyHelper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ism-auth/ism-auth-server/src/main/docker/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ism-common/ism-common-core/target/classes/com/insigma/common/core/config/JacksonConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ism-common/ism-common-core/target/classes/com/insigma/common/core/config/MessageSourceConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ism-common/ism-common-core/target/classes/com/insigma/common/core/config/RestTemplateConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ism-common/ism-common-core/target/classes/com/insigma/common/core/constant/CommonConstants.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ism-common/ism-common-core/target/classes/com/insigma/common/core/constant/Constant$RedisKey.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ism-common/ism-common-core/target/classes/com/insigma/common/core/constant/Constant$Sys.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ism-common/ism-common-core/target/classes/com/insigma/common/core/constant/Constant.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ism-common/ism-common-core/target/classes/com/insigma/common/core/constant/PaginationConstants.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ism-common/ism-common-core/target/classes/com/insigma/common/core/constant/SecurityConstants.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ism-common/ism-common-core/target/classes/com/insigma/common/core/constant/ServiceNameConstants.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ism-common/ism-common-core/target/classes/com/insigma/common/core/constant/enums/LoginTypeEnum.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ism-common/ism-common-core/target/classes/com/insigma/common/core/constant/enums/ProcessStatusEnum.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ism-common/ism-common-core/target/classes/com/insigma/common/core/constant/enums/ResourceTypeEnum.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ism-common/ism-common-core/target/classes/com/insigma/common/core/constant/enums/TaskStatusEnum.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ism-common/ism-common-core/target/classes/com/insigma/common/core/exception/CheckedException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ism-common/ism-common-core/target/classes/com/insigma/common/core/exception/InsigmaDeniedException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ism-common/ism-common-core/target/classes/com/insigma/common/core/exception/UnloginException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ism-common/ism-common-core/target/classes/com/insigma/common/core/exception/ValidateCodeException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ism-common/ism-common-core/target/classes/com/insigma/common/core/jackson/InsigmaJavaTimeModule.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ism-common/ism-common-core/target/classes/com/insigma/common/core/util/ClassUtils.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ism-common/ism-common-core/target/classes/com/insigma/common/core/util/R$RBuilder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ism-common/ism-common-core/target/classes/com/insigma/common/core/util/R.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ism-common/ism-common-core/target/classes/com/insigma/common/core/util/SpringContextHolder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ism-common/ism-common-core/target/classes/com/insigma/common/core/util/WebUtils.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ism-common/ism-common-core/target/classes/com/insigma/component/IsmComponentApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ism-common/ism-common-core/target/ism-common-core-0.0.1-SNAPSHOT.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ism-common/ism-common-core/target/ism-common-core-0.0.1-SNAPSHOT.jar.original" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ism-common/ism-common-core/target/test-classes/com/insigma/component/IsmComponentApplicationTests.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ism-common/ism-common-socket/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ism-common/ism-common-socket/src/main/java/com/insigma/common/jwt/emit/EmitEvents.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ism-config/ism-config.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ism-config/target/classes/META-INF/ism-config.kotlin_module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ism-config/target/classes/bootstrap.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ism-config/target/classes/com/insigma/config/InsigmaConfigApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ism-config/target/classes/config/application-dev.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ism-config/target/classes/config/ism-activiti-dev.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ism-config/target/classes/config/ism-auth-dev.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ism-config/target/classes/config/ism-codegen-dev.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ism-config/target/classes/config/ism-daemon-dev.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ism-config/target/classes/config/ism-gateway-dev.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ism-config/target/classes/config/ism-monitor-dev.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ism-config/target/classes/config/ism-tx-manager-dev.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ism-config/target/classes/config/ism-upms-biz-dev.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ism-config/target/classes/logback-spring.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ism-config/target/classes/logback-test-spring.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ism-config/target/ism-config-4.2.20.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ism-config/target/ism-config-4.2.20.jar.original" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ism-config/target/maven-archiver/pom.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ism-config/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ism-config/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ism-modules/ism-service-quartz/.idea/$CACHE_FILE$" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ism-modules/ism-service-quartz/.idea/.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ism-modules/ism-service-quartz/.idea/artifacts/springboot_quartz_demo_war.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ism-modules/ism-service-quartz/.idea/artifacts/springboot_quartz_demo_war_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ism-modules/ism-service-quartz/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ism-modules/ism-service-quartz/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ism-modules/ism-service-quartz/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ism-modules/ism-service-quartz/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ism-modules/ism-service-quartz/ism-service-quartz.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ism-modules/ism-tool/target/classes/com/insigma/ConcurrencyTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ism-upms/ism-upms-api/target/classes/com/insigma/admin/api/dto/DeptTree.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ism-upms/ism-upms-api/target/classes/com/insigma/admin/api/dto/MenuTree.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ism-upms/ism-upms-api/target/classes/com/insigma/admin/api/dto/TreeNode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ism-upms/ism-upms-api/target/classes/com/insigma/admin/api/dto/UserDTO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ism-upms/ism-upms-api/target/classes/com/insigma/admin/api/dto/UserInfo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ism-upms/ism-upms-api/target/classes/com/insigma/admin/api/entity/SysUser.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ism-upms/ism-upms-api/target/classes/com/insigma/admin/api/vo/MenuVO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ism-visual/ism-codegen/target/classes/bootstrap.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ism-visual/ism-codegen/target/classes/com/pig4cloud/pigx/codegen/PigxCodeGenApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ism-visual/ism-codegen/target/classes/com/pig4cloud/pigx/codegen/controller/SysGeneratorController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ism-visual/ism-codegen/target/classes/com/pig4cloud/pigx/codegen/entity/ColumnEntity.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ism-visual/ism-codegen/target/classes/com/pig4cloud/pigx/codegen/entity/GenConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ism-visual/ism-codegen/target/classes/com/pig4cloud/pigx/codegen/entity/TableEntity.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ism-visual/ism-codegen/target/classes/com/pig4cloud/pigx/codegen/mapper/SysGeneratorMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ism-visual/ism-codegen/target/classes/com/pig4cloud/pigx/codegen/service/SysGeneratorService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ism-visual/ism-codegen/target/classes/com/pig4cloud/pigx/codegen/service/impl/SysGeneratorServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ism-visual/ism-codegen/target/classes/com/pig4cloud/pigx/codegen/util/GenUtils.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ism-visual/ism-codegen/target/classes/generator.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ism-visual/ism-codegen/target/classes/mapper/SysGeneratorMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ism-visual/ism-codegen/target/classes/template/Controller.java.vm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ism-visual/ism-codegen/target/classes/template/Entity.java.vm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ism-visual/ism-codegen/target/classes/template/Mapper.java.vm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ism-visual/ism-codegen/target/classes/template/Mapper.xml.vm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ism-visual/ism-codegen/target/classes/template/Service.java.vm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ism-visual/ism-codegen/target/classes/template/ServiceImpl.java.vm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ism-visual/ism-codegen/target/classes/template/api.js.vm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ism-visual/ism-codegen/target/classes/template/crud.js.vm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ism-visual/ism-codegen/target/classes/template/index.vue.vm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ism-visual/ism-codegen/target/classes/template/menu.sql.vm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ism-visual/ism-codegen/target/maven-archiver/pom.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ism-visual/ism-codegen/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ism-visual/ism-codegen/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ism-visual/ism-codegen/target/pigx-codegen.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ism-visual/ism-daemon/target/classes/bootstrap.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ism-visual/ism-daemon/target/classes/com/pig4cloud/pigx/daemon/PigxDaemonApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ism-visual/ism-daemon/target/classes/com/pig4cloud/pigx/daemon/controller/ExecutionLogController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ism-visual/ism-daemon/target/classes/com/pig4cloud/pigx/daemon/controller/StatusTraceLogController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ism-visual/ism-daemon/target/classes/com/pig4cloud/pigx/daemon/entity/ExecutionLog.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ism-visual/ism-daemon/target/classes/com/pig4cloud/pigx/daemon/entity/StatusTraceLog.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ism-visual/ism-daemon/target/classes/com/pig4cloud/pigx/daemon/job/PigxDataflowJob.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ism-visual/ism-daemon/target/classes/com/pig4cloud/pigx/daemon/job/PigxSimpleJob.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ism-visual/ism-daemon/target/classes/com/pig4cloud/pigx/daemon/job/PigxSimpleJob2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ism-visual/ism-daemon/target/classes/com/pig4cloud/pigx/daemon/listener/PigxDistributeElasticJobListener.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ism-visual/ism-daemon/target/classes/com/pig4cloud/pigx/daemon/listener/PigxElasticJobListener.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ism-visual/ism-daemon/target/classes/com/pig4cloud/pigx/daemon/mapper/ExecutionLogMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ism-visual/ism-daemon/target/classes/com/pig4cloud/pigx/daemon/mapper/StatusTraceLogMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ism-visual/ism-daemon/target/classes/com/pig4cloud/pigx/daemon/service/ExecutionLogService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ism-visual/ism-daemon/target/classes/com/pig4cloud/pigx/daemon/service/StatusTraceLogService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ism-visual/ism-daemon/target/classes/com/pig4cloud/pigx/daemon/service/impl/ExecutionLogServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ism-visual/ism-daemon/target/classes/com/pig4cloud/pigx/daemon/service/impl/StatusTraceLogServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ism-visual/ism-daemon/target/classes/mapper/ExecutionLogMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ism-visual/ism-daemon/target/classes/mapper/StatusTraceLogMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ism-visual/ism-daemon/target/maven-archiver/pom.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ism-visual/ism-daemon/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ism-visual/ism-daemon/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ism-visual/ism-daemon/target/pigx-daemon.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ism-visual/ism-monitor/target/classes/bootstrap.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ism-visual/ism-monitor/target/classes/com/pig4cloud/pigx/monitor/PigxMonitorApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ism-visual/ism-monitor/target/classes/com/pig4cloud/pigx/monitor/support/RedisEventStore.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ism-visual/ism-monitor/target/classes/com/pig4cloud/pigx/monitor/support/StatusChangeNotifier.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ism-visual/ism-monitor/target/classes/report.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ism-visual/ism-monitor/target/classes/static/hystrix/components/hystrixCommand/hystrixCommand.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ism-visual/ism-monitor/target/classes/static/hystrix/components/hystrixCommand/hystrixCommand.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ism-visual/ism-monitor/target/classes/static/hystrix/components/hystrixCommand/magnifying-glass-icon-20.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ism-visual/ism-monitor/target/classes/static/hystrix/components/hystrixCommand/magnifying-glass-icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ism-visual/ism-monitor/target/classes/static/hystrix/components/hystrixCommand/templates/hystrixCircuit.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ism-visual/ism-monitor/target/classes/static/hystrix/components/hystrixCommand/templates/hystrixCircuitContainer.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ism-visual/ism-monitor/target/classes/static/hystrix/components/hystrixCommand/templates/hystrixCircuitProperties.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ism-visual/ism-monitor/target/classes/static/hystrix/components/hystrixThreadPool/hystrixThreadPool.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ism-visual/ism-monitor/target/classes/static/hystrix/components/hystrixThreadPool/hystrixThreadPool.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ism-visual/ism-monitor/target/classes/static/hystrix/components/hystrixThreadPool/templates/hystrixThreadPool.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ism-visual/ism-monitor/target/classes/static/hystrix/components/hystrixThreadPool/templates/hystrixThreadPoolContainer.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ism-visual/ism-monitor/target/classes/static/hystrix/css/global.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ism-visual/ism-monitor/target/classes/static/hystrix/css/monitor.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ism-visual/ism-monitor/target/classes/static/hystrix/css/resets.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ism-visual/ism-monitor/target/classes/static/hystrix/css/simplegrid/1236_grid.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ism-visual/ism-monitor/target/classes/static/hystrix/css/simplegrid/720_grid.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ism-visual/ism-monitor/target/classes/static/hystrix/css/simplegrid/986_grid.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ism-visual/ism-monitor/target/classes/static/hystrix/css/simplegrid/LICENSE.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ism-visual/ism-monitor/target/classes/static/hystrix/css/simplegrid/README.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ism-visual/ism-monitor/target/classes/static/hystrix/css/simplegrid/percentage_grid.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ism-visual/ism-monitor/target/classes/static/hystrix/images/hystrix-logo-tagline-tiny.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ism-visual/ism-monitor/target/classes/static/hystrix/images/hystrix-logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ism-visual/ism-monitor/target/classes/static/hystrix/js/jquery.tinysort.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ism-visual/ism-monitor/target/classes/static/hystrix/js/tmpl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ism-visual/ism-monitor/target/classes/templates/hystrix/index.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ism-visual/ism-monitor/target/classes/templates/hystrix/monitor.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ism-visual/ism-monitor/target/classes/ui/assets/css/chunk-common.9808b72e.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ism-visual/ism-monitor/target/classes/ui/assets/css/chunk-vendors.a476dbd7.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ism-visual/ism-monitor/target/classes/ui/assets/css/sba-core.f51c293c.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ism-visual/ism-monitor/target/classes/ui/assets/fonts/element-icons.2fad952a.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ism-visual/ism-monitor/target/classes/ui/assets/fonts/element-icons.6f0a7632.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ism-visual/ism-monitor/target/classes/ui/assets/img/favicon-danger.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ism-visual/ism-monitor/target/classes/ui/assets/img/favicon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ism-visual/ism-monitor/target/classes/ui/assets/img/icon-spring-boot-admin.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ism-visual/ism-monitor/target/classes/ui/assets/js/chunk-common.4230ea45.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ism-visual/ism-monitor/target/classes/ui/assets/js/chunk-common.4230ea45.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ism-visual/ism-monitor/target/classes/ui/assets/js/chunk-vendors.2f924319.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ism-visual/ism-monitor/target/classes/ui/assets/js/chunk-vendors.2f924319.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ism-visual/ism-monitor/target/classes/ui/assets/js/event-source-polyfill.560960a1.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ism-visual/ism-monitor/target/classes/ui/assets/js/event-source-polyfill.560960a1.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ism-visual/ism-monitor/target/classes/ui/assets/js/login.614c6c50.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ism-visual/ism-monitor/target/classes/ui/assets/js/login.614c6c50.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ism-visual/ism-monitor/target/classes/ui/assets/js/sba-core.81571cf1.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ism-visual/ism-monitor/target/classes/ui/assets/js/sba-core.81571cf1.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ism-visual/ism-monitor/target/classes/ui/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ism-visual/ism-monitor/target/classes/ui/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ism-visual/ism-monitor/target/maven-archiver/pom.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ism-visual/ism-monitor/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ism-visual/ism-monitor/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ism-visual/ism-monitor/target/pigx-monitor.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot-web/.idea/artifacts/springboot_web_war.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot-web/.idea/artifacts/springboot_web_war_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot-web/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot-web/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot-web/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_2_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot-web/.idea/libraries/Maven__ch_qos_logback_logback_core_1_2_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot-web/.idea/libraries/Maven__com_fasterxml_classmate_1_3_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot-web/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_9_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot-web/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_9_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot-web/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_9_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot-web/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jdk8_2_9_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot-web/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jsr310_2_9_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot-web/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_parameter_names_2_9_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot-web/.idea/libraries/Maven__com_jayway_jsonpath_json_path_2_4_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot-web/.idea/libraries/Maven__commons_codec_commons_codec_1_11.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot-web/.idea/libraries/Maven__commons_io_commons_io_2_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot-web/.idea/libraries/Maven__javax_annotation_javax_annotation_api_1_3_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot-web/.idea/libraries/Maven__javax_validation_validation_api_2_0_1_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot-web/.idea/libraries/Maven__junit_junit_4_12.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot-web/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_7_11.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot-web/.idea/libraries/Maven__net_bytebuddy_byte_buddy_agent_1_7_11.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot-web/.idea/libraries/Maven__net_minidev_accessors_smart_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot-web/.idea/libraries/Maven__net_minidev_json_smart_2_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot-web/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot-web/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_10_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot-web/.idea/libraries/Maven__org_apache_logging_log4j_log4j_to_slf4j_2_10_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot-web/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_8_5_32.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot-web/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_el_8_5_32.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot-web/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_websocket_8_5_32.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot-web/.idea/libraries/Maven__org_assertj_assertj_core_3_9_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot-web/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot-web/.idea/libraries/Maven__org_hamcrest_hamcrest_library_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot-web/.idea/libraries/Maven__org_hibernate_validator_hibernate_validator_6_0_11_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot-web/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_3_2_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot-web/.idea/libraries/Maven__org_mockito_mockito_core_2_15_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot-web/.idea/libraries/Maven__org_objenesis_objenesis_2_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot-web/.idea/libraries/Maven__org_ow2_asm_asm_5_0_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot-web/.idea/libraries/Maven__org_skyscreamer_jsonassert_1_5_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot-web/.idea/libraries/Maven__org_slf4j_jul_to_slf4j_1_7_25.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot-web/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_25.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot-web/.idea/libraries/Maven__org_springframework_boot_spring_boot_2_0_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot-web/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_2_0_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot-web/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_2_0_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot-web/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_json_2_0_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot-web/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_2_0_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot-web/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_test_2_0_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot-web/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_2_0_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot-web/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_2_0_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot-web/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_2_0_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot-web/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_autoconfigure_2_0_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot-web/.idea/libraries/Maven__org_springframework_spring_aop_5_0_8_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot-web/.idea/libraries/Maven__org_springframework_spring_beans_5_0_8_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot-web/.idea/libraries/Maven__org_springframework_spring_context_5_0_8_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot-web/.idea/libraries/Maven__org_springframework_spring_core_5_0_8_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot-web/.idea/libraries/Maven__org_springframework_spring_expression_5_0_8_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot-web/.idea/libraries/Maven__org_springframework_spring_jcl_5_0_8_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot-web/.idea/libraries/Maven__org_springframework_spring_test_5_0_8_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot-web/.idea/libraries/Maven__org_springframework_spring_web_5_0_8_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot-web/.idea/libraries/Maven__org_springframework_spring_webmvc_5_0_8_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot-web/.idea/libraries/Maven__org_xmlunit_xmlunit_core_2_5_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot-web/.idea/libraries/Maven__org_yaml_snakeyaml_1_19.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot-web/target/classes/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot-web/target/classes/com/jollitycn/spring/service/web/Application.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot-web/target/classes/static/js/socket.io/socket.io.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot-web/target/maven-archiver/pom.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot-web/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot-web/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot-web/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot-web/target/springboot-web-1.0.0-SNAPSHOT.war" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot-web/target/springboot-web-1.0.0-SNAPSHOT.war.original" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot-web/target/springboot-web-1.0.0-SNAPSHOT/WEB-INF/classes/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot-web/target/springboot-web-1.0.0-SNAPSHOT/WEB-INF/classes/com/jollitycn/spring/service/web/Application.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot-web/target/springboot-web-1.0.0-SNAPSHOT/WEB-INF/classes/static/js/socket.io/socket.io.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot-web/target/springboot-web-1.0.0-SNAPSHOT/WEB-INF/lib/classmate-1.3.4.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot-web/target/springboot-web-1.0.0-SNAPSHOT/WEB-INF/lib/commons-codec-1.11.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot-web/target/springboot-web-1.0.0-SNAPSHOT/WEB-INF/lib/commons-io-2.5.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot-web/target/springboot-web-1.0.0-SNAPSHOT/WEB-INF/lib/commons-lang3-3.7.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot-web/target/springboot-web-1.0.0-SNAPSHOT/WEB-INF/lib/hibernate-validator-6.0.11.Final.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot-web/target/springboot-web-1.0.0-SNAPSHOT/WEB-INF/lib/jackson-annotations-2.9.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot-web/target/springboot-web-1.0.0-SNAPSHOT/WEB-INF/lib/jackson-core-2.9.6.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot-web/target/springboot-web-1.0.0-SNAPSHOT/WEB-INF/lib/jackson-databind-2.9.6.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot-web/target/springboot-web-1.0.0-SNAPSHOT/WEB-INF/lib/jackson-datatype-jdk8-2.9.6.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot-web/target/springboot-web-1.0.0-SNAPSHOT/WEB-INF/lib/jackson-datatype-jsr310-2.9.6.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot-web/target/springboot-web-1.0.0-SNAPSHOT/WEB-INF/lib/jackson-module-parameter-names-2.9.6.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot-web/target/springboot-web-1.0.0-SNAPSHOT/WEB-INF/lib/javax.annotation-api-1.3.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot-web/target/springboot-web-1.0.0-SNAPSHOT/WEB-INF/lib/jboss-logging-3.3.2.Final.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot-web/target/springboot-web-1.0.0-SNAPSHOT/WEB-INF/lib/jul-to-slf4j-1.7.25.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot-web/target/springboot-web-1.0.0-SNAPSHOT/WEB-INF/lib/log4j-api-2.10.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot-web/target/springboot-web-1.0.0-SNAPSHOT/WEB-INF/lib/log4j-to-slf4j-2.10.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot-web/target/springboot-web-1.0.0-SNAPSHOT/WEB-INF/lib/logback-classic-1.2.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot-web/target/springboot-web-1.0.0-SNAPSHOT/WEB-INF/lib/logback-core-1.2.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot-web/target/springboot-web-1.0.0-SNAPSHOT/WEB-INF/lib/slf4j-api-1.7.25.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot-web/target/springboot-web-1.0.0-SNAPSHOT/WEB-INF/lib/snakeyaml-1.19.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot-web/target/springboot-web-1.0.0-SNAPSHOT/WEB-INF/lib/spring-aop-5.0.8.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot-web/target/springboot-web-1.0.0-SNAPSHOT/WEB-INF/lib/spring-beans-5.0.8.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot-web/target/springboot-web-1.0.0-SNAPSHOT/WEB-INF/lib/spring-boot-2.0.4.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot-web/target/springboot-web-1.0.0-SNAPSHOT/WEB-INF/lib/spring-boot-autoconfigure-2.0.4.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot-web/target/springboot-web-1.0.0-SNAPSHOT/WEB-INF/lib/spring-boot-starter-2.0.4.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot-web/target/springboot-web-1.0.0-SNAPSHOT/WEB-INF/lib/spring-boot-starter-json-2.0.4.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot-web/target/springboot-web-1.0.0-SNAPSHOT/WEB-INF/lib/spring-boot-starter-logging-2.0.4.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot-web/target/springboot-web-1.0.0-SNAPSHOT/WEB-INF/lib/spring-boot-starter-tomcat-2.0.4.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot-web/target/springboot-web-1.0.0-SNAPSHOT/WEB-INF/lib/spring-boot-starter-web-2.0.4.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot-web/target/springboot-web-1.0.0-SNAPSHOT/WEB-INF/lib/spring-context-5.0.8.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot-web/target/springboot-web-1.0.0-SNAPSHOT/WEB-INF/lib/spring-core-5.0.8.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot-web/target/springboot-web-1.0.0-SNAPSHOT/WEB-INF/lib/spring-expression-5.0.8.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot-web/target/springboot-web-1.0.0-SNAPSHOT/WEB-INF/lib/spring-jcl-5.0.8.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot-web/target/springboot-web-1.0.0-SNAPSHOT/WEB-INF/lib/spring-web-5.0.8.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot-web/target/springboot-web-1.0.0-SNAPSHOT/WEB-INF/lib/spring-webmvc-5.0.8.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot-web/target/springboot-web-1.0.0-SNAPSHOT/WEB-INF/lib/tomcat-embed-core-8.5.32.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot-web/target/springboot-web-1.0.0-SNAPSHOT/WEB-INF/lib/tomcat-embed-el-8.5.32.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot-web/target/springboot-web-1.0.0-SNAPSHOT/WEB-INF/lib/tomcat-embed-websocket-8.5.32.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot-web/target/springboot-web-1.0.0-SNAPSHOT/WEB-INF/lib/validation-api-2.0.1.Final.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot-web/target/test-classes/keystore.jks" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ism-modules/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ism-modules/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/jollitycn/jwt/socket/client/android/socket.io-android-chat" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/jollitycn/jwt/socket/client/android/socket.io-android-chat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/jollitycn/jwt/socket/client/html/index-group.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/jollitycn/jwt/socket/client/html/index-group.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/jollitycn/jwt/socket/client/html/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/jollitycn/jwt/socket/client/html/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-web/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springboot-web/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-web/.idea/springboot-web.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../springboot-web/.idea/springboot-web.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-web/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springboot-web/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-web/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springboot-web/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/test/java/com/insigma/component/IsmComponentApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/test/java/com/insigma/component/IsmComponentApplicationTests.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="JsBowerSettings">
+    <node-interpreter value="project" />
+    <bower-package value="" />
+    <bower.json value="" />
+  </component>
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="D:\repo" />
+        <option name="mavenHome" value="D:/SoftInstall/maven" />
+        <option name="userSettingsFile" value="D:\SoftInstall\maven\apache-maven-3.6.3\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="jdkForImporter" value="#JAVA_HOME" />
+        <option name="vmOptionsForImporter" value="-Xmx768m" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenRunner">
+    <option name="skipTests" value="true" />
+  </component>
+  <component name="NamedScopeManager">
+    <scope name="Unnamed" pattern="" />
+  </component>
+  <component name="ProjectId" id="1W9ADJt4Hatql9OL5wjZTEXq8Se" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="autoscrollFromSource" value="true" />
+    <option name="autoscrollToSource" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="ExpandSpringBootJavaOptionsPanel" value="true" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="extract.method.default.visibility" value="private" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/src/test/java/com/jollitycn/jwt" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../hengda/water-system-server" />
+    <property name="node.js.path.for.package.stylelint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.stylelint" value="" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.097751714" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\ProjectData\ism\ism-framework\springboot-socketio\src\test\java\com\jollitycn\jwt\socket\client" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.jollitycn.jwt" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.jollitycn.jwt.model" />
+      <recent name="com.xncoding.jwt.cache" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\ProjectData\ism\ism-framework\springboot-socketio\src\test\java\com\jollitycn\jwt\socket\client\html" />
+      <recent name="D:\ProjectData\ism\ism-framework\springboot-socketio\src\test\java\com\jollitycn\jwt\socket\client" />
+      <recent name="D:\ProjectData\ism\ism-framework\springboot-socketio\src\test\java\com\xncoding\jwt\socket\client\html" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Spring Boot.Application">
+    <configuration name="SocketClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.jollitycn.jwt.socket.client.SocketClient" />
+      <module name="springboot-socketio" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.jollitycn.jwt.socket.client.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="index-group.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/springboot-socketio/com/jollitycn/jwt/socket/client/html/index-group.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="index.html (1)" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/springboot-socketio/com/jollitycn/jwt/socket/client/vue-chat-master/dist/index.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/springboot-socketio/com/jollitycn/jwt/socket/client/vue-chat-master/index.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="springboot-socketio" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.jollitycn.jwt.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.jollitycn.jwt.Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.Application" />
+        <item itemvalue="JavaScript Debug.index-group.html" />
+        <item itemvalue="JavaScript Debug.index.html (1)" />
+        <item itemvalue="JavaScript Debug.index.html" />
+        <item itemvalue="Application.SocketClient" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b89c694d-ba1e-4268-9769-60bcaf20cc0d" name="Default Changelist" comment="" />
+      <created>1578551315379</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1578551315379</updated>
+      <workItem from="1578551320018" duration="887000" />
+      <workItem from="1578552641590" duration="333000" />
+      <workItem from="1578553286538" duration="1475000" />
+      <workItem from="1578557508361" duration="12837000" />
+      <workItem from="1578737061347" duration="18977000" />
+      <workItem from="1578864618439" duration="27492000" />
+      <workItem from="1578916059961" duration="2826000" />
+      <workItem from="1578972504485" duration="6755000" />
+      <workItem from="1578992478560" duration="4265000" />
+      <workItem from="1578998941503" duration="8681000" />
+      <workItem from="1579051503295" duration="280000" />
+      <workItem from="1579052237340" duration="2292000" />
+      <workItem from="1579067089854" duration="17553000" />
+      <workItem from="1579138104348" duration="4270000" />
+      <workItem from="1579149280126" duration="10007000" />
+      <workItem from="1579222621634" duration="3245000" />
+    </task>
+    <task id="LOCAL-00001" summary="update for chet">
+      <created>1578758863473</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1578758863473</updated>
+    </task>
+    <task id="LOCAL-00002" summary="update for chet">
+      <created>1578759092844</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1578759092844</updated>
+    </task>
+    <task id="LOCAL-00003" summary="add socketUtil for broadcast">
+      <created>1578767170413</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1578767170414</updated>
+    </task>
+    <task id="LOCAL-00004" summary="confirm for html demo group chat and vue group chat connection results">
+      <created>1578774253234</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1578774253234</updated>
+    </task>
+    <task id="LOCAL-00005" summary="confirm for html demo group chat and vue group chat connection results">
+      <created>1579075164136</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1579075164137</updated>
+    </task>
+    <task id="LOCAL-00006" summary="confirm for html demo group chat and vue group chat connection results">
+      <created>1579149363507</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1579149363507</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/src/test/java/com/jollitycn/jwt/socket/client/android/socket.io-android-chat" />
+    </ignored-roots>
+    <MESSAGE value="update for chet" />
+    <MESSAGE value="add socketUtil for broadcast" />
+    <MESSAGE value="confirm for html demo group chat and vue group chat connection results" />
+    <option name="LAST_COMMIT_MESSAGE" value="confirm for html demo group chat and vue group chat connection results" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="552" y="168" key="#Project_Structure" timestamp="1579152702572">
+      <screen x="0" y="0" width="1920" height="1019" />
+    </state>
+    <state x="552" y="168" key="#Project_Structure/0.0.1920.1019@0.0.1920.1019" timestamp="1579152702572" />
+    <state x="414" y="165" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1579052387858">
+      <screen x="0" y="0" width="1920" height="1019" />
+    </state>
+    <state x="414" y="165" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1019@0.0.1920.1019" timestamp="1579052387858" />
+    <state x="765" y="194" key="#com.intellij.ide.util.MemberChooser" timestamp="1579077546571">
+      <screen x="0" y="0" width="1920" height="1019" />
+    </state>
+    <state x="765" y="194" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1019@0.0.1920.1019" timestamp="1579077546571" />
+    <state x="765" y="200" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1049@0.0.1920.1049" timestamp="1578769466839" />
+    <state x="553" y="425" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1578992347816">
+      <screen x="0" y="0" width="1920" height="1019" />
+    </state>
+    <state x="553" y="425" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1920.1019@0.0.1920.1019" timestamp="1578992347816" />
+    <state x="739" y="380" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages" timestamp="1578988457701">
+      <screen x="0" y="0" width="1920" height="1019" />
+    </state>
+    <state x="739" y="380" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages/0.0.1920.1019@0.0.1920.1019" timestamp="1578988457701" />
+    <state x="690" y="263" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1579077790738">
+      <screen x="0" y="0" width="1920" height="1019" />
+    </state>
+    <state x="690" y="263" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1019@0.0.1920.1019" timestamp="1579077790738" />
+    <state x="690" y="271" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1049@0.0.1920.1049" timestamp="1578770936181" />
+    <state x="489" y="115" key="CommitChangelistDialog2" timestamp="1579152684133">
+      <screen x="0" y="0" width="1920" height="1019" />
+    </state>
+    <state x="489" y="115" key="CommitChangelistDialog2/0.0.1920.1019@0.0.1920.1019" timestamp="1579152684133" />
+    <state x="489" y="118" key="CommitChangelistDialog2/0.0.1920.1049@0.0.1920.1049" timestamp="1578774251446" />
+    <state width="461" height="466" key="DebuggerActiveHint" timestamp="1579080146139">
+      <screen x="0" y="0" width="1920" height="1019" />
+    </state>
+    <state width="461" height="466" key="DebuggerActiveHint/0.0.1920.1019@0.0.1920.1019" timestamp="1579080146139" />
+    <state x="740" y="265" key="FileChooserDialogImpl" timestamp="1579228912047">
+      <screen x="0" y="0" width="1920" height="1019" />
+    </state>
+    <state x="740" y="265" key="FileChooserDialogImpl/0.0.1920.1019@0.0.1920.1019" timestamp="1579228912047" />
+    <state x="740" y="273" key="FileChooserDialogImpl/0.0.1920.1049@0.0.1920.1049" timestamp="1578867406077" />
+    <state width="1877" height="316" key="GridCell.Tab.0.bottom" timestamp="1579228832600">
+      <screen x="0" y="0" width="1920" height="1019" />
+    </state>
+    <state width="1877" height="316" key="GridCell.Tab.0.bottom/0.0.1920.1019@0.0.1920.1019" timestamp="1579228832600" />
+    <state width="1877" height="286" key="GridCell.Tab.0.bottom/0.0.1920.1049@0.0.1920.1049" timestamp="1578866651627" />
+    <state width="1877" height="316" key="GridCell.Tab.0.center" timestamp="1579228832600">
+      <screen x="0" y="0" width="1920" height="1019" />
+    </state>
+    <state width="1877" height="316" key="GridCell.Tab.0.center/0.0.1920.1019@0.0.1920.1019" timestamp="1579228832600" />
+    <state width="1877" height="286" key="GridCell.Tab.0.center/0.0.1920.1049@0.0.1920.1049" timestamp="1578866651626" />
+    <state width="1877" height="316" key="GridCell.Tab.0.left" timestamp="1579228832599">
+      <screen x="0" y="0" width="1920" height="1019" />
+    </state>
+    <state width="1877" height="316" key="GridCell.Tab.0.left/0.0.1920.1019@0.0.1920.1019" timestamp="1579228832599" />
+    <state width="1877" height="286" key="GridCell.Tab.0.left/0.0.1920.1049@0.0.1920.1049" timestamp="1578866651626" />
+    <state width="1877" height="316" key="GridCell.Tab.0.right" timestamp="1579228832600">
+      <screen x="0" y="0" width="1920" height="1019" />
+    </state>
+    <state width="1877" height="316" key="GridCell.Tab.0.right/0.0.1920.1019@0.0.1920.1019" timestamp="1579228832600" />
+    <state width="1877" height="286" key="GridCell.Tab.0.right/0.0.1920.1049@0.0.1920.1049" timestamp="1578866651627" />
+    <state width="1877" height="316" key="GridCell.Tab.1.bottom" timestamp="1579161676638">
+      <screen x="0" y="0" width="1920" height="1019" />
+    </state>
+    <state width="1877" height="316" key="GridCell.Tab.1.bottom/0.0.1920.1019@0.0.1920.1019" timestamp="1579161676638" />
+    <state width="1877" height="286" key="GridCell.Tab.1.bottom/0.0.1920.1049@0.0.1920.1049" timestamp="1578866651627" />
+    <state width="1877" height="316" key="GridCell.Tab.1.center" timestamp="1579161676638">
+      <screen x="0" y="0" width="1920" height="1019" />
+    </state>
+    <state width="1877" height="316" key="GridCell.Tab.1.center/0.0.1920.1019@0.0.1920.1019" timestamp="1579161676638" />
+    <state width="1877" height="286" key="GridCell.Tab.1.center/0.0.1920.1049@0.0.1920.1049" timestamp="1578866651627" />
+    <state width="1877" height="316" key="GridCell.Tab.1.left" timestamp="1579161676638">
+      <screen x="0" y="0" width="1920" height="1019" />
+    </state>
+    <state width="1877" height="316" key="GridCell.Tab.1.left/0.0.1920.1019@0.0.1920.1019" timestamp="1579161676638" />
+    <state width="1877" height="286" key="GridCell.Tab.1.left/0.0.1920.1049@0.0.1920.1049" timestamp="1578866651627" />
+    <state width="1877" height="316" key="GridCell.Tab.1.right" timestamp="1579161676638">
+      <screen x="0" y="0" width="1920" height="1019" />
+    </state>
+    <state width="1877" height="316" key="GridCell.Tab.1.right/0.0.1920.1019@0.0.1920.1019" timestamp="1579161676638" />
+    <state width="1877" height="286" key="GridCell.Tab.1.right/0.0.1920.1049@0.0.1920.1049" timestamp="1578866651627" />
+    <state width="1877" height="316" key="GridCell.Tab.2.bottom" timestamp="1579161676638">
+      <screen x="0" y="0" width="1920" height="1019" />
+    </state>
+    <state width="1877" height="316" key="GridCell.Tab.2.bottom/0.0.1920.1019@0.0.1920.1019" timestamp="1579161676638" />
+    <state width="1877" height="286" key="GridCell.Tab.2.bottom/0.0.1920.1049@0.0.1920.1049" timestamp="1578866651627" />
+    <state width="1877" height="316" key="GridCell.Tab.2.center" timestamp="1579161676638">
+      <screen x="0" y="0" width="1920" height="1019" />
+    </state>
+    <state width="1877" height="316" key="GridCell.Tab.2.center/0.0.1920.1019@0.0.1920.1019" timestamp="1579161676638" />
+    <state width="1877" height="286" key="GridCell.Tab.2.center/0.0.1920.1049@0.0.1920.1049" timestamp="1578866651627" />
+    <state width="1877" height="316" key="GridCell.Tab.2.left" timestamp="1579161676638">
+      <screen x="0" y="0" width="1920" height="1019" />
+    </state>
+    <state width="1877" height="316" key="GridCell.Tab.2.left/0.0.1920.1019@0.0.1920.1019" timestamp="1579161676638" />
+    <state width="1877" height="286" key="GridCell.Tab.2.left/0.0.1920.1049@0.0.1920.1049" timestamp="1578866651627" />
+    <state width="1877" height="316" key="GridCell.Tab.2.right" timestamp="1579161676638">
+      <screen x="0" y="0" width="1920" height="1019" />
+    </state>
+    <state width="1877" height="316" key="GridCell.Tab.2.right/0.0.1920.1019@0.0.1920.1019" timestamp="1579161676638" />
+    <state width="1877" height="286" key="GridCell.Tab.2.right/0.0.1920.1049@0.0.1920.1049" timestamp="1578866651627" />
+    <state x="490" y="165" key="Maven.ArtifactSearchDialog" timestamp="1578899789880">
+      <screen x="0" y="0" width="1920" height="1019" />
+    </state>
+    <state x="490" y="165" key="Maven.ArtifactSearchDialog/0.0.1920.1019@0.0.1920.1019" timestamp="1578899789880" />
+    <state x="184" y="90" key="MergeDialog" timestamp="1579055910173">
+      <screen x="0" y="0" width="1920" height="1019" />
+    </state>
+    <state x="184" y="90" key="MergeDialog/0.0.1920.1019@0.0.1920.1019" timestamp="1579055910173" />
+    <state x="669" y="225" key="MultipleFileMergeDialog" timestamp="1579055910188">
+      <screen x="0" y="0" width="1920" height="1019" />
+    </state>
+    <state x="669" y="225" key="MultipleFileMergeDialog/0.0.1920.1019@0.0.1920.1019" timestamp="1579055910188" />
+    <state x="600" y="207" key="NewModule_or_Project.wizard" timestamp="1579149026131">
+      <screen x="0" y="0" width="1920" height="1019" />
+    </state>
+    <state x="600" y="207" key="NewModule_or_Project.wizard/0.0.1920.1019@0.0.1920.1019" timestamp="1579149026131" />
+    <state x="774" y="459" key="ReplaceDuplicatesPrompt" timestamp="1578766868512">
+      <screen x="0" y="0" width="1920" height="1049" />
+    </state>
+    <state x="774" y="459" key="ReplaceDuplicatesPrompt/0.0.1920.1049@0.0.1920.1049" timestamp="1578766868512" />
+    <state x="461" y="152" key="SettingsEditor" timestamp="1579160491525">
+      <screen x="0" y="0" width="1920" height="1019" />
+    </state>
+    <state x="461" y="152" key="SettingsEditor/0.0.1920.1019@0.0.1920.1019" timestamp="1579160491525" />
+    <state x="461" y="156" key="SettingsEditor/0.0.1920.1049@0.0.1920.1049" timestamp="1578769451706" />
+    <state x="552" y="251" key="Vcs.Push.Dialog.v2" timestamp="1579149371645">
+      <screen x="0" y="0" width="1920" height="1019" />
+    </state>
+    <state x="552" y="251" key="Vcs.Push.Dialog.v2/0.0.1920.1019@0.0.1920.1019" timestamp="1579149371645" />
+    <state x="552" y="258" key="Vcs.Push.Dialog.v2/0.0.1920.1049@0.0.1920.1049" timestamp="1578774284749" />
+    <state x="759" y="287" key="chooseDestDirectoryDialog" timestamp="1578991840554">
+      <screen x="0" y="0" width="1920" height="1019" />
+    </state>
+    <state x="759" y="287" key="chooseDestDirectoryDialog/0.0.1920.1019@0.0.1920.1019" timestamp="1578991840554" />
+    <state x="640" y="334" key="com.intellij.ide.util.TipDialog" timestamp="1579052314766">
+      <screen x="0" y="0" width="1920" height="1019" />
+    </state>
+    <state x="640" y="334" key="com.intellij.ide.util.TipDialog/0.0.1920.1019@0.0.1920.1019" timestamp="1579052314766" />
+    <state x="501" y="246" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1578989400494">
+      <screen x="0" y="0" width="1920" height="1019" />
+    </state>
+    <state x="501" y="246" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1920.1019@0.0.1920.1019" timestamp="1578989400494" />
+    <state x="690" y="278" width="540" height="501" key="extract.method.dialog" timestamp="1578766863265">
+      <screen x="0" y="0" width="1920" height="1049" />
+    </state>
+    <state x="690" y="278" width="540" height="501" key="extract.method.dialog/0.0.1920.1049@0.0.1920.1049" timestamp="1578766863265" />
+    <state x="270" y="215" width="786" height="600" key="find.popup" timestamp="1579159582741">
+      <screen x="0" y="0" width="1920" height="1019" />
+    </state>
+    <state x="270" y="215" width="786" height="600" key="find.popup/0.0.1920.1019@0.0.1920.1019" timestamp="1579159582741" />
+    <state x="567" y="215" width="865" height="618" key="find.popup/0.0.1920.1049@0.0.1920.1049" timestamp="1578876449729" />
+    <state x="628" y="301" key="git4idea.merge.GitPullDialog" timestamp="1579055876220">
+      <screen x="0" y="0" width="1920" height="1019" />
+    </state>
+    <state x="628" y="301" key="git4idea.merge.GitPullDialog/0.0.1920.1019@0.0.1920.1019" timestamp="1579055876220" />
+    <state x="601" y="235" width="700" height="530" key="recent.locations.popup" timestamp="1578991084651">
+      <screen x="0" y="0" width="1920" height="1019" />
+    </state>
+    <state x="601" y="235" width="700" height="530" key="recent.locations.popup/0.0.1920.1019@0.0.1920.1019" timestamp="1578991084651" />
+    <state x="623" y="221" width="672" height="659" key="search.everywhere.popup" timestamp="1579071083863">
+      <screen x="0" y="0" width="1920" height="1019" />
+    </state>
+    <state x="623" y="221" width="672" height="659" key="search.everywhere.popup/0.0.1920.1019@0.0.1920.1019" timestamp="1579071083863" />
+    <state x="623" y="227" width="672" height="678" key="search.everywhere.popup/0.0.1920.1049@0.0.1920.1049" timestamp="1578765959864" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/jollitycn/socket/netty/client/NettyClient.java</url>
+          <line>58</line>
+          <option name="timeStamp" value="33" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/test/java/com/jollitycn/jwt/socket/client/html/index-group.html</url>
+          <line>187</line>
+          <option name="timeStamp" value="36" />
+        </line-breakpoint>
+      </breakpoints>
+      <default-breakpoints>
+        <breakpoint type="python-exception">
+          <properties notifyOnTerminate="true" exception="BaseException">
+            <option name="notifyOnTerminate" value="true" />
+          </properties>
+        </breakpoint>
+      </default-breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

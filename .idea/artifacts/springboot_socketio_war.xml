@@ -1,0 +1,6 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="springboot-socketio:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <root id="archive" name="springboot-socketio-1.0.0-SNAPSHOT.war" />
+  </artifact>
+</component>

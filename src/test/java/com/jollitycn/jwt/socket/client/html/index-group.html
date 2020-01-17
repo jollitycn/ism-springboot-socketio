@@ -103,7 +103,8 @@ var   emojis= ['😂', '🙏', '😄', '😏', '😇', '😅', '😌', '😘', '
 var isShowEmoji=false;
         var userName = 'user' + Math.floor((Math.random() * 1000) + 1);
 
-        var socket = io.connect('http://jollitycn.com:9099?username=' + userName + '&password=123456');
+var socket = io.connect('http://172.81.235.207:9099?username=' + userName + '&password=123456');
+    //    var socket = io.connect('http://jollitycn.com:9099?username=' + userName + '&password=123456');
 
         socket.on('connect', function () {
             output('<span class="connect-msg">Client has connected to the server!</span>');
@@ -261,8 +262,5 @@ function newLine(){
     <button type="button" onClick="sendConnect()" class="btn">Connect</button>
     <button type="button" onClick="sendDisconnect()" class="btn">Disconnect</button>
 </form>
-
-
 </body>
-
 </html>

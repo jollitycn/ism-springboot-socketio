@@ -58,13 +58,36 @@
             output('<span class="disconnect-msg">The client has disconnected!</span>');
         });
 
-        socket.emit('user_left', function (username) {
-                output('<span class="username-msg">' + username + '</span> ');
+        socket.on('user_join', (data) => {
+            if (!data) {
+                return;
+            }
+            output('<span class="username-msg">' + data.userName + '上线了' + ':共:'+data.count+':</span> ');
+        });
+
+        socket.on('user_left', (data) => {
+            if (!data) {
+                return;
+            }
+            output('<span class="username-msg">' + data.userName + '下线了' + ':共:'+data.count+':</span> ');
+        });
+
+        socket.on('typing', function (data) {
+            if(data) {
+                output('<span class="disconnect-msg">' + data + ':is typing!' + '</span>');
+            }
+        });
+
+        socket.on('typing_stop', function (data) {
+            if(data) {
+                // output('<span class="disconnect-msg">' + data + ':stop typing!' + '</span>');
+            }
         });
 
         function sendDisconnect() {
             socket.disconnect();
         }
+
 
         function sendMessage() {
             var message = $('#msg').val();
@@ -75,10 +98,8 @@
                 content: message
             };
             socket.emit('message', jsonObject, function (data) {
-                if(data && data.event=="user_left"){
-                    output('<span class="username-msg">' + data + '</span> ');
-                }else {
-                    output('<span class="username-msg">' + data + '</span> ');
+                if(data) {
+                    output('<span class="username-msg">' + data.from+":"+data.content + '</span> ');
                 }
             });
         }
@@ -96,7 +117,6 @@
         });
     </script>
 </head>
-
 <body>
 
 <h1>jollitycn-socketio Demo Chat</h1>
