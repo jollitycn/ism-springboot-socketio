@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b89c694d-ba1e-4268-9769-60bcaf20cc0d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../ism-modules/ism-service-quartz/src/main/resources/db/db1.sql" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/artifacts/springboot_socketio_war_exploded.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_core_1_2_3.xml" afterDir="false" />
@@ -4207,9 +4208,22 @@
       <change afterPath="$PROJECT_DIR$/target/test-classes/springboot-socketio-1.0.0-SNAPSHOT/WEB-INF/lib/spring-beans-5.0.8.RELEASE.jar" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/target/test-classes/springboot-socketio-1.0.0-SNAPSHOT/WEB-INF/lib/spring-boot-autoconfigure-2.0.4.RELEASE.jar" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/target/test-classes/springboot-socketio-1.0.0-SNAPSHOT/WEB-INF/lib/spring-expression-5.0.8.RELEASE.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ism-modules/ism-service-quartz/src/main/java/com/insigma/micService/quartz/SpringbootQuartzDemoApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ism-modules/ism-service-quartz/src/main/java/com/insigma/micService/quartz/QuartzApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ism-common/ism-common-swagger/ism-common-swagger.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../ism-common/ism-common-swagger/ism-common-swagger.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ism-common/ism-common-swagger/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ism-common/ism-common-swagger/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ism-modules/ism-service-quartz/ism-service-quartz.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../ism-modules/ism-service-quartz/ism-service-quartz.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ism-modules/ism-service-quartz/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ism-modules/ism-service-quartz/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ism-modules/ism-service-quartz/src/main/java/com/insigma/micService/quartz/QuartzApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ism-modules/ism-service-quartz/src/main/java/com/insigma/micService/quartz/QuartzApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ism-modules/ism-service-quartz/src/main/java/com/insigma/micService/quartz/controller/IndexController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ism-modules/ism-service-quartz/src/main/java/com/insigma/micService/quartz/controller/IndexController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../ism-modules/ism-service-quartz/src/main/java/com/insigma/micService/quartz/controller/QuartzController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ism-modules/ism-service-quartz/src/main/java/com/insigma/micService/quartz/controller/QuartzController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ism-modules/ism-service-quartz/src/test/java/com/insigma/micService/quartz/SpringbootQuartzDemoApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ism-modules/ism-service-quartz/src/test/java/com/insigma/micService/quartz/QuartzApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ism-modules/ism-service-quartz/src/main/resources/db/db.sql" beforeDir="false" afterPath="$PROJECT_DIR$/../ism-modules/ism-service-quartz/src/main/resources/db/db.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ism-modules/ism-service-quartz/src/main/resources/mapper/QuartzTaskErrorsMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ism-modules/ism-service-quartz/src/main/resources/mapper/QuartzTaskErrorsMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ism-modules/ism-service-quartz/src/main/resources/templates/addtask.html" beforeDir="false" afterPath="$PROJECT_DIR$/../ism-modules/ism-service-quartz/src/main/resources/templates/addTask.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ism-modules/ism-service-quartz/src/main/resources/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../ism-modules/ism-service-quartz/src/main/resources/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ism-modules/ism-service-quartz/src/main/resources/templates/taskerrors.html" beforeDir="false" afterPath="$PROJECT_DIR$/../ism-modules/ism-service-quartz/src/main/resources/templates/taskErrors.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ism-modules/ism-service-quartz/src/main/resources/templates/taskrecords.html" beforeDir="false" afterPath="$PROJECT_DIR$/../ism-modules/ism-service-quartz/src/main/resources/templates/taskRecords.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ism-modules/ism-service-quartz/src/main/resources/templates/updatetask.html" beforeDir="false" afterPath="$PROJECT_DIR$/../ism-modules/ism-service-quartz/src/main/resources/templates/updateTask.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ism-modules/ism-service-system/src/main/resources/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../ism-modules/ism-service-system/src/main/resources/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ism-modules/ism-service-system/src/main/resources/templates/taskerrors.html" beforeDir="false" afterPath="$PROJECT_DIR$/../ism-modules/ism-service-system/src/main/resources/templates/taskerrors.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/jollitycn/jwt/socket/client/html/index-group.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/jollitycn/jwt/socket/client/html/index-group.html" afterDir="false" />
